@@ -1,0 +1,104 @@
+html {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	scroll-behavior: smooth;
+	background-color: #000;
+	background-image: url("../img/background.jpg")
+}
+
+.black-font {
+	color: #000 !important;
+}
+
+.white-font {
+	color: #fff !important;
+}
+
+.zindex-1 {
+	position: relative;
+	z-index: 1;
+}
+
+/* Body */
+.body-section {
+	padding: 32px 0;
+	text-align: center;
+}
+
+.content-section {
+	text-align: justify;
+	font-size: 18px;
+}
+
+#document {
+	background-color: #000;
+}
+
+.subject-item {
+	margin-bottom: 12px;
+}
+
+.subject-body {
+	background: #fff;
+	min-height: 100px;
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+}
+
+.img-subject {
+	width: 100%;
+	height: 320px;
+	background-position: center;
+	background-size: cover;
+	border: solid #fff 1px;
+	border-bottom: solid #999 1px;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+}
+
+.novel {
+	background-image: url("../img/novel.jpg");
+}
+
+.tech {
+	background-image: url("../img/tech.jpg");
+}
+
+.psycho {
+	background-image: url("../img/psycho.jpg");
+}
+
+.economic {
+	background-image: url("../img/economic.jpg");
+}
+
+.heading-subject {
+	position: absolute;
+	top: 8px;
+	font-size: 1.2em;
+}
+
+.btn-subject {
+	--height-btn: 40px;
+	display: block;
+	min-width: 200px;
+	height: var(--height-btn);
+	line-height: var(--height-btn);
+	text-align: center;
+	color: #000;
+	border: solid #999 1px;
+	border-radius: 6px;
+	background: linear-gradient(to left, transparent 50%, #5cb85c 50%) right;
+	background-size: 200%;
+	transition: 0.35s ease-out;
+	cursor: pointer;
+	position: absolute;
+	bottom: 16px;
+}
+
+.btn-subject:hover {
+	background-position: left;
+}
